@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>7a</title>
+</head>
+<body>
+  <script>
+    function greet(name){
+      if(name === undefined){
+        console.log('hi there');
+      }
+      else{
+      console.log(`hello, ${name}`);
+      }
+    }
+    //greet();
+
+    function convertToFahrenheit(celsius){
+      return (celsius * 9/5) + 32;
+    }
+
+    function convertToCelsius(fahrenheit){
+      return (degrees - 32) * 5/9;
+    }
+    
+    function convertTemperature(degrees, unit){
+      if(unit === 'c'){
+        return `${convertToFahrenheit(degrees)}F`;
+      }
+      else if(unit === 'f'){
+        return `${convertToCelsius(degrees)}C`;
+      }
+    }
+    console.log(convertTemperature(25,'c'));
+  </script>
+</body>
+</html>

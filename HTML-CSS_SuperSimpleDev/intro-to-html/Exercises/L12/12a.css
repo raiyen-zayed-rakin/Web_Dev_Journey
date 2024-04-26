@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  
+}
+.px200{
+  background-color: lightblue;
+  width: 200px;
+}
+.px75{
+  background-color: lightpink;
+  width: 75px;
+}

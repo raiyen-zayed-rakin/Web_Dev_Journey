@@ -1,0 +1,22 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.title {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+.info {
+  font-size:18px;
+  color: rgb(160,160,160);
+}
+.youtube {
+  background-color: rgb(33,33,33);
+  width: 390px;
+  padding-left: 15px;
+  padding-bottom:20px;
+  padding-top: 20px;
+  padding-right: 15px;
+}

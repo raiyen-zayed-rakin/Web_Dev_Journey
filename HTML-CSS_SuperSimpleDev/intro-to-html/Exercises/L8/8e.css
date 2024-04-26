@@ -1,0 +1,42 @@
+.headline {
+  font-family: Arial;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+input {
+  font-family: Arial;
+  display: block;
+  width: 250px;
+  margin-bottom: 5px;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 16px;
+  padding-left: 16px;
+  background-color: rgb(222, 220, 217);
+}
+.pick-up {
+}
+.request {
+  margin-top: 35px;
+  font-family: Arial;
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.schedule {
+  font-family: Arial;
+  background-color: rgb(222, 220, 217);
+  color: black;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 16px;
+  padding-left: 16px;
+
+}

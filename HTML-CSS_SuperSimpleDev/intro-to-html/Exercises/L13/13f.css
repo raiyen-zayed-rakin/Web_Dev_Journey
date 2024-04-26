@@ -1,0 +1,57 @@
+.div{
+  font-family: Roboto, Arial;
+}
+.container{
+  display: flex;
+  font-size: 15px;
+  width: 300px;
+  justify-content: space-between;
+  align-items: top;
+}
+.user-profile{
+
+}
+.user-picture{
+  height: 50px;
+  width: 50px;
+  border-radius: 35px;
+  object-fit: cover;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.user-info{
+  display: flex;
+}
+.user-name{
+  font-weight: bold;
+  padding-right: 5px;
+}
+.user-id{
+  color: rgb(145, 145, 145);
+}
+.video-info{
+  padding-bottom: 8px;
+}
+.video{
+  display: flex;
+  border-radius: 10px;
+  height: 70px;
+  width: 300px;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.blank-color{
+  height: 70px;
+  width: 110px;
+  background-color: rgb(192,192,192);
+}
+.video-link{
+  padding-left: 10px;
+}
+.youtube{
+  color: rgb(145, 145, 145);
+}

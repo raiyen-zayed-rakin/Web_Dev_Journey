@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(150, 150, 150);
+  height: 150px;
+  width: 265px;
+  padding-left: 10px;
+  align-items: right;
+  font-family: Roboto, Arial;
+}
+
+.home{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.notifications{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.messages{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.no{
+  background-color: rgb(60, 123, 186);
+  color: white;
+  font-size : 15px;
+  font-family: Roboto, Arial;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  border-radius: 10px;
+
+}

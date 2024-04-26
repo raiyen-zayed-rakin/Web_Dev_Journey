@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>10d</title>
+  <link rel="stylesheet" href="10d.css">
+</head>
+<body>
+  <button onclick="
+      gaming();
+    " class="js-button gaming">Gaming</button>
+  <script>
+    function gaming(){
+      /*
+      const gamingButton = document.querySelector('.js-button');
+      if(gamingButton.innerText === 'Gaming'){
+        gamingButton.innerText = 'gamed';
+        gamingButton.classList.add('b-gaming');
+      }
+      else{
+        gamingButton.innerText = 'Gaming'
+        gamingButton.classList.remove('b-gaming');
+      }
+      */
+      
+      const button = document.querySelector('.js-button');
+      if (!button.classList.contains('b-gaming')) {
+        button.classList.add('b-gaming');
+      } else {
+        button.classList.remove('b-gaming');
+      }
+      
+      /*
+      const button = document.querySelector('js-button');
+      if(button.classList.contains('Gaming')){
+        button.classList.add('b-gaming');
+      }
+      else{
+        button.classList.remove('b-gaming');
+      } 
+      */
+    }
+  </script>
+</body>
+</html>

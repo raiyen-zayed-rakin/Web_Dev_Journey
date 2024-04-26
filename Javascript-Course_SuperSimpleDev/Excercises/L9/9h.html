@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>9h</title>
+</head>
+<body>
+  <input type="text" placeholder="Type something" class="user-name"
+  onkeyup="
+    enterKey(event);
+  ">
+  
+  <p class="result"></p>
+
+  <script>
+
+    function enterKey(event){
+      result();
+    }
+    function result(){
+      const name = document.querySelector('.user-name');
+      document.querySelector('.result').innerHTML = name.value;
+    }
+  </script>
+</body>
+</html>

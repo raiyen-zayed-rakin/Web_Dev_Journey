@@ -1,0 +1,41 @@
+body{
+  height: 3000px;
+}
+
+.box{
+  height: 180px;
+  width: 320px;
+  background-color: rgb(192,192,192);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.close-button {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: -20px;
+  right: 295px;
+  font-family: Arial;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-time{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-family: Arial;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 4px;
+}

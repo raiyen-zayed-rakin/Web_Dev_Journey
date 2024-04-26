@@ -1,0 +1,57 @@
+body{
+  font-family: Arial;
+  height: 3000px;
+}
+.overlay{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(228, 228,228);
+}
+.user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cat-pic{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.user-name{
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.add-button{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  background-color: rgb(65, 117, 195);
+  color: white;
+  border-radius: 5px;
+  border-color: rgb(65, 117, 195);
+  border-style: solid;
+}
+.message-button{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}

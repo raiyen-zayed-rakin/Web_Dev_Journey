@@ -1,0 +1,13 @@
+button{
+  margin-left: 10px;
+}
+.gaming{
+  padding: 8px 12px;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+}
+.b-gaming{
+  background-color: black;
+  color: white;
+}
